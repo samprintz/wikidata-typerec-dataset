@@ -12,6 +12,14 @@ Each sample has four values:
 - The entity e (to which the mention m refers)
 - The entity type t of the entity e
 
+## Dataset Parts
+
+There are three versions for each part of the dataset:
+
+- <tt>small</tt>: small part of the dataset for debugging
+- <tt>medium</tt>: larger part of the dateset for tests and debugging
+- <tt>full</tt>: full dataset
+
 ## Entity Types
 
 The types are a predefined set derived from [Wikidata Concept Monitor taxonomy](https://wikitech.wikimedia.org/wiki/Wikidata_Concepts_Monitor#WDCM_Taxonomy):
